@@ -1,0 +1,81 @@
+@font-face {
+    font-family: gloss;
+    src: url(Gloss_And_Bloom.ttf);
+}
+@font-face {
+    font-family:gogh;
+    src: url(Gogh-ExtraBold.ttf);
+}
+nav{
+    margin-right: 6%;
+    margin-left: 4%;
+    margin-top:0%;
+    padding-top: 0%;
+    font-family: stretchpro;
+    font-size: 100%;
+}
+
+body{
+    background-image: linear-gradient(rgb(0, 0, 0),rgb(134, 14, 14)); 
+}
+
+h3{
+    text-align: center;
+    padding-top: 4%;
+    margin-bottom: 0%;
+    color: rgb(255, 255, 255);
+    font-size: 160%;
+    font-family: gogh;
+    font-weight: lighter;
+}
+h4{
+    text-align: center;
+    margin-left: 2%;
+    margin-top: 0%;
+    margin-bottom: 0;
+    color: rgb(255, 255, 255);
+    font-size: 670%;
+    font-weight: lighter;
+    font-family: gloss;
+}
+h5{
+    font-family: built;
+    font-weight: lighter;
+}
+p{
+    text-align: center;
+    padding-bottom: 4%;
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: rgb(255, 255, 255);
+    font-size:100%;
+    font-family: gogh;
+    font-weight: 50;
+}
+.discription h3{
+    margin: 0%;
+    text-align: center;
+    font-size: 30px;
+   
+}
+.discription p{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 2%;  
+}
+@media (max-width:500px){
+    nav{
+        font-size: 100%;
+    }
+    h3{
+        font-size: 20px;
+    }
+    h4{
+        font-size: 65px;
+    }
+    p{
+        padding-top: 200px;
+        font-size: 20px;
+    }
+}
